@@ -1,0 +1,6 @@
+<div class="buscar">
+    <form [formGroup]="form">
+        <input formControlName="namePokemon" type="text" placeholder="Informe o nome do pokémon">
+        <button (click)="searchPokemon()" [disabled]="form.invalid">Procurar Pokémon</button>
+    </form>
+</div>

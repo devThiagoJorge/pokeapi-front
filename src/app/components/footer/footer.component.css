@@ -1,0 +1,21 @@
+
+
+.footer {
+    background-color: #EE272E;
+    height: 50px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.footer span{
+    font-size: 20px;
+    padding-right: 45px;
+}
